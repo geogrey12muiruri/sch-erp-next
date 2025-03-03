@@ -3,9 +3,12 @@ import React from 'react'
 
 export default function FrontLayout({children}: Readonly<{children: React.ReactNode}>) {
   return (
-    <div>
+    <main className='max-w-6xl mx-auto'>
+      
       <SiteHeader />
       {children}
-      </div>
+      
+    </main>
+   
   )
 }
