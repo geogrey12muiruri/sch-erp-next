@@ -3,9 +3,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-    <HeroSection />
-    </div>
+    <main className='max-w-6xl mx-auto'>
+       <HeroSection />
+    </main>
+
   )
 }
 
